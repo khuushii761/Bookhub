@@ -11,9 +11,9 @@ export default function Librarian_home() {
                     <h2 className="text-2xl font-bold text-indigo-700">Librarian Panel</h2>
                 </div>
                 <nav className="p-6 space-y-4">
-                    <Link to="/librarian/dashboard" className="block text-gray-700 hover:text-indigo-700">Dashboard</Link>
+                    <Link to="/Librarian/Home" className="block text-gray-700 hover:text-indigo-700">Dashboard</Link>
                     <Link to="/Librarian/Book" className="block text-gray-700 hover:text-indigo-700">Manage Books</Link>
-                    <Link to="/librarian/requests" className="block text-gray-700 hover:text-indigo-700">Borrow Requests</Link>
+                    <Link to="/Librarian/Requests" className="block text-gray-700 hover:text-indigo-700">Borrow Requests</Link>
                     <Link to="/librarian/students" className="block text-gray-700 hover:text-indigo-700">Student Records</Link>
                     <Link to="/logout" className="block text-red-600 hover:text-red-800">Logout</Link>
                 </nav>

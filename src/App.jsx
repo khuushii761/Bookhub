@@ -13,6 +13,12 @@ import Librarian_nav from './Librarian/Librarian_nav'
 import Librarian_profile from './Librarian/Librarian.profile'
 import Librarian_home from './Librarian/Librarian_home'
 import Librarian_book from './Librarian/Librarian_book'
+import LibrarianManage_Student from './Librarian/LibrarianManage_Student'
+
+import Bookissue_request from './Book/Bookissue_request'
+import Borrowed_books from './Book/Borrowed_books'
+import Book_return from './Book/Book_return'
+import Bookissue_accept from './Book/Bookissue_accept'
 import Home from './pages/Home'
 import {  Routes, Route } from 'react-router-dom'
 
@@ -33,7 +39,13 @@ function App() {
       <Route path='/Librarian/Home' element={<Librarian_home/>}/>
       <Route path='/Librarian/Profile' element={<Librarian_profile/>}/>
       <Route path='/Librarian/Book' element={<Librarian_book/>}/>
+      <Route path='/Librarian/Students' element={<LibrarianManage_Student/>}/>
       
+
+      <Route path='/Book/Issue_Request' element={<Bookissue_request/>}/>
+      <Route path='/Book/Borrowed_Books' element={<Borrowed_books/>}/>
+      <Route path='/Book/Return' element={<Book_return/>}/>
+      <Route path='/Librarian/Requests' element={<Bookissue_accept/>}/>
     </Routes>
     </>
   )
