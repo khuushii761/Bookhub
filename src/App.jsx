@@ -25,6 +25,7 @@ import {  Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
+    
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/Student/Login' element={<Student_Login/>}/>
